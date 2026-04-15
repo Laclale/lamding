@@ -12,5 +12,5 @@
   - =or(COUNTIF(B$3:B$9,B3)>1,COUNTIF($B3:$H3,B3)>1)
 - 数字以外も入れるとなった場合はまず数字かどうかを判定する所から(Venneriaの可能性に警戒しよう)
 
-# MakearrayとXY座標の関係
+# 横書きにおけるMakearrayとXY座標の関係
  - =MAKEARRAY(幅,高さ,LAMBDA(y,x,関数本体))

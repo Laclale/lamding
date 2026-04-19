@@ -17,3 +17,13 @@
 
 # OFFSET型XLOOKUP
 - =XLOOKUP(a, offset(b,0,0,h,w), offset(b,r,c,h,w), navl, mmode, smode)
+  - a: 検索キー
+  - b: 検索範囲の先頭座標
+  - r: 結果の範囲の先頭までのオフセット行
+  - c: 結果の範囲の先頭までのオフセット列
+  - h: 高さ
+  - w: 幅
+  - navl: 見つからない場合の値
+  - mmode: 一致モード
+  - smode: 検索モード
+  - hとwは必ず片方を1にすること

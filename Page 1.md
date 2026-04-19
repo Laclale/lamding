@@ -16,4 +16,4 @@
 - =MAKEARRAY(幅,高さ,LAMBDA(y,x,関数本体))
 
 # OFFSET型XLOOKUP
-- XLOOKUP(a, offset(b,0,0,h,w), offset(b,r,c,h,w), navl, mmode, smode)
+- =XLOOKUP(a, offset(b,0,0,h,w), offset(b,r,c,h,w), navl, mmode, smode)

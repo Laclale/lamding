@@ -13,4 +13,7 @@
 - 数字以外も入れるとなった場合はまず数字かどうかを判定する所から(Venneriaの可能性に警戒しよう)
 
 # 横書きにおけるMakearrayとXY座標の関係
- - =MAKEARRAY(幅,高さ,LAMBDA(y,x,関数本体))
+- =MAKEARRAY(幅,高さ,LAMBDA(y,x,関数本体))
+
+# OFFSET型XLOOKUP
+- XLOOKUP(a, offset(b,0,0,h,w), offset(b,r,c,h,w), navl, mmode, smode)
